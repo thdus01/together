@@ -1,0 +1,75 @@
+.header-header1 {
+    align-items: center;
+    display: inline-block;
+    min-width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: floralwhite;
+    display: flex;
+    width: auto;
+    position: relative;
+}
+
+@media (max-width: 1300px) {
+
+    .header-header1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .header-header1 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+}
+
+.header-box1 {
+    /* 투게더 로고 박스 */
+    margin: 10px;
+    flex: 1;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.header-box1-items-icon {
+    width: 100px;
+    height: 40px;
+}
+
+.header-box1-items {
+    text-align: center;
+    margin: 5px;
+    display: inline;
+    font-size: 25px;
+    float: left;
+}
+
+.header-box2 {
+    /* 로그인 정보 박스 */
+    margin-right: 15px;
+}
+
+.header-box2-div {
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.header-box2-div:hover {
+    cursor: pointer;
+}
+
+.header-box2-name {
+    text-align: center;
+    margin: 5px;
+    margin-top: 8px;
+    font-size: 17px;
+    float: right;
+}

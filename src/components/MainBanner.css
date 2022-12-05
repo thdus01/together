@@ -1,0 +1,216 @@
+.main-menuMain { /* 메인메뉴 배너 */
+    text-align: center;
+    min-width: 1000px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+@media (max-width: 1300px) {
+
+    .main-menuMain {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .main-menuMain {
+        margin-left:0%;
+        margin-right:0%;
+    }
+
+}
+
+    .main-menuGroup {
+        position: relative;
+        top:-90px;
+        width:1000px;
+        display: inline-block;
+    }
+        
+        .main-menuBox1 { /* 공지사항란 */
+            width: 1000px;
+            height: 270px;
+            display: inline-block;
+            background-color: whitesmoke;
+            border-radius: 25px;
+        }
+    
+            .main-menuBox1-box1 { /* 공지사항 박스 */
+                width: auto;
+                height: auto;
+                text-align: center;
+                display : flex;
+                justify-content : center;
+                align-items : center;
+                margin-top: 5px;
+            }
+    
+                .main-menuBox1-box1-div { /* 공지사항 요소 */
+                    width: 175px;
+                    height: 175px;
+                    border: 1px solid lightgray;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                    overflow: hidden; /* 글자가 넘어가면 숨기기 (모바일 렉유발) */
+                    border-radius: 15%;
+                    box-shadow: 3px 3px 3px 3px lightgray;
+                    background-color: white;
+                }
+
+                .main-menuBox1-box1-div:hover {
+                    color: white;
+                    background-color: lightgrey;
+                    cursor:pointer;
+                }
+
+                .main-menuBox1-box1-div:hover .main-menuBox1-box1-div-p1 {
+                    color:black
+                }
+
+                    .main-menuBox1-box1-div-p1 { /* 공지사항 요소 제목 */
+                        font-weight: bold;
+                        height:auto;
+                        margin: 5px;
+                        font-size: 14px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                        -webkit-box-orient: vertical;
+                    }
+    
+                    .main-menuBox1-box1-div-p2 { /* 공지사항 요소 내용 */
+                        font-size: 14px;
+                        margin: 4px;
+                        /* 내용 부분 */
+                        line-height: 1.2;
+                        height: 9.6em;
+                        text-align: left;
+                        word-wrap: break-word;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 8 ;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                    }
+    
+                .main-menuBox1-box2 { /* 자주묻는질문 | Q&A 박스 */
+                    text-align: right;
+                    margin-right: 25px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    overflow: hidden;
+                }
+    
+                    .main-menuBox1-box2-a { /* 자주묻는질문 | Q&A 요소 */
+                        margin-right: 10px;
+                        margin-left: 10px;
+                    }
+    
+                    .main-menuBox1-box2-a:hover { /* 자주묻는질문 | Q&A 요소 마우스 올리면 작동 */
+                        text-decoration: underline; /* 글자에 밑줄넣기 */
+                        cursor: pointer;
+                    }
+    
+        .main-menuBox2 { /* 최근 추가된 봉사박스 */
+            width: 1000px;
+            height: 270px;
+            margin-top: 40px;
+            display: inline-block;
+            background-color: whitesmoke;
+            border-radius: 25px;
+            position: relative;
+            top:20px;
+        }
+
+            .main-menuBox2-box {
+                text-align: center;
+                display : flex;
+                justify-content : center;
+                align-items : center;
+                margin-top: 10px;
+            }
+
+                .main-menuBox2-box-div {
+                    width: 175px;
+                    height: 175px;
+                    border: 1px solid lightgray;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    border-radius: 15%;
+                    box-shadow: 3px 3px 3px 3px lightgray;
+                    background-color: white;
+                }
+
+                .main-menuBox2-box-div:hover {
+                    background-color: lightgrey;
+                }
+
+                    .main-menuBox2-box-div-name { /* 분야 */
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-weight: bold;
+                        font-size: 18px;
+                        margin:3px;
+                        -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                        -webkit-box-orient: vertical;
+                    }
+
+                    .main-menuBox2-box-div-area { /* 지역 */
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        text-align: right;
+                        font-size: 13px;
+                        margin: 4px;
+                        font-weight: bold;
+                        -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                        -webkit-box-orient: vertical;
+                    }
+
+                    .main-menuBox2-box-div-ul { /* 상세칸 ul */
+                        margin: 5px;
+                        text-align: left;
+                        padding-left: 20px;
+                        font-weight: bold;
+                    }
+
+                        .main-menuBox2-box-div-ul-title { /* 상세칸 - 제목 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 14px;
+                            width: 130px;
+                            -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                            -webkit-box-orient: vertical;
+                        }
+
+                        .main-menuBox2-box-div-ul-date { /* 상세칸 - 날짜 */
+                            font-size: 12px;
+                            margin:5px;
+                            -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                            -webkit-box-orient: vertical;
+                        }
+
+                        .main-menuBox2-box-div-ul-people { /* 상세칸 - 남은 인원 */
+                            font-size: 14px;
+                            margin:5px;
+                            -webkit-line-clamp: 1; /* 표시하고자 하는 라인 수 */
+                            -webkit-box-orient: vertical;
+                        }
+
+                    .main-menuBox2-box-div-request { /* 신청 버튼 */
+                        margin-top: 7px;
+                        margin-bottom: 0px;
+                        margin-right:10px;
+                        font-weight: bold;
+                        text-align: right;
+                    }

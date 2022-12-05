@@ -1,0 +1,262 @@
+.myInformation-body {
+    min-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+@media (max-width: 1300px) {
+
+    .myInformation-body {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .myInformation-body { 
+        margin-left:0%;
+        margin-right:0%;
+    }
+
+}
+
+.myInformation-body hr { /* 내정보 페이지 전체 hr */
+    background-color: black;
+    border: black solid 1.5px;
+    margin:5px;
+    
+}
+
+.myInformation-main {
+    text-align: center;
+    display: inline-block;
+}
+
+.myInformation-title {
+    margin:10px;
+    display: inline-block;
+}
+
+.myInformation-title-span {
+    margin: 5px;
+    font-size: 35px;
+}
+
+.myInformation-starBox {
+    box-shadow: 3px 3px 3px 3px lightgray;
+    width:625px;
+    display: inline-flex;
+    margin:10px;
+    border-radius: 100px;
+}
+
+    .myInformation-starBox-items1 {
+        border-radius: 50%;
+        width:150px;
+        height:150px;
+        margin:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgreen;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+    .myInformation-starBox-items2 {
+        border-radius: 50%;
+        width:150px;
+        height:150px;
+        margin:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightyellow;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+    .myInformation-starBox-items3 {
+        border-radius: 50%;
+        width:150px;
+        height:150px;
+        margin:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightcoral;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+        .myInformation-starBox-items-div {
+            display: inline-block;
+        }
+
+.myInformation-personalInformationBox {
+    min-width: 950px;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+    border:rgb(95, 216, 51) solid 3px;
+    
+}
+
+    .myInformation-personalInformationBox-table {
+        display: inline-block;
+        width:auto;
+        margin: 5px;
+        
+    }
+
+        .myInformation-personalInformationBox-table>tbody {
+            margin: 5px;
+            overflow: auto;
+            width:750px;
+            border: black solid 1.5px;
+        }
+
+            .myInformation-personalInformationBox-table-tbody-th {
+                border: black solid 1.5px;
+                width:100px;
+                height: 50px;
+                font-size: 16px;
+                overflow: auto;
+                border-radius: 5px;
+            }
+
+            .myInformation-personalInformationBox-table-tbody-td {
+                border: black solid 1.5px;
+                width:200px;
+                height: 50px;
+                font-size: 16px;
+                overflow: auto;
+                border-radius: 5px;
+            }
+
+.myInformation-volunteerRecordBox {
+    width: 950px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    border:orange solid 3px;
+}
+
+    .myInformation-volunteerRecordBox-p {
+        font-weight: bold;
+        margin: 5px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .myInformation-volunteerRecordBox-tableWaiting {
+        display: inline-block;
+        border-collapse: collapse;
+    }
+
+        .myInformation-volunteerRecordBox-tableWaiting-thead-tr {
+            border-top:black solid 1.5px;
+            border-bottom:black solid 1px;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-tbody-tr {
+            border-top:black solid 1px;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-tbody-tr>td,.myInformation-volunteerRecordBox-tableWaiting-thead-tr>th {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-orgName {
+            width:115px;
+            overflow: auto;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-title {
+            width:240px;
+            overflow: auto;
+            background-color: #dee2e6;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-type {
+            width:150px;
+            overflow: auto;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-date {
+            width:150px;
+            overflow: auto;
+            background-color: #dee2e6;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-location {
+            width:200px;
+            overflow: auto;
+        }
+
+        .myInformation-volunteerRecordBox-tableWaiting-cancelBtn {
+            width:70px;
+            overflow: auto;
+        }
+
+    .myInformation-volunteerRecordBox-tableComplete {
+        display: inline-block;
+        border-collapse: collapse;
+    }
+        
+        .myInformation-volunteerRecordBox-tableComplete-tbody-tr>td,.myInformation-volunteerRecordBox-tableComplete-thead-tr>th {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+        }
+
+        .myInformation-volunteerRecordBox-tableComplete-thead-tr {
+            border-top:black solid 1.5px;
+            border-bottom:black solid 1px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .myInformation-volunteerRecordBox-tableComplete-tbody-tr {
+            border-top:black solid 1px;
+        }
+
+            .myInformation-volunteerRecordBox-tableComplete-orgName {
+                width:120px;
+                overflow: auto;
+            }
+
+            .myInformation-volunteerRecordBox-tableComplete-title {
+                width:250px;
+                overflow: auto;
+                background-color: #dee2e6;
+            }
+
+            .myInformation-volunteerRecordBox-tableComplete-type {
+                width:150px;
+                overflow: auto;
+            }
+
+            .myInformation-volunteerRecordBox-tableComplete-date {
+                width:150px;
+                overflow: auto;
+                background-color: #dee2e6;
+            }
+
+            .myInformation-volunteerRecordBox-tableComplete-location {
+                width:250px;
+                overflow: auto;
+            }

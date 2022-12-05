@@ -1,0 +1,27 @@
+.mapContainer-main {
+    background-color: white;
+}
+
+.mapContainer-titleBox-h2 {
+    color: #222;
+    margin-left: 20px;
+    margin-top: 12px;
+    float: left;
+}
+
+.mapContainer-titleBox-alertSpan {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    color:red;
+}
+
+.mapContainer-titleBox-a button {
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    font-size: 20px;
+}

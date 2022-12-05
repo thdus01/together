@@ -1,0 +1,28 @@
+.naverLogin-body {
+    display: inline-block;
+    text-align: center;
+}
+
+#naverIdLogin{
+    display: none;
+}
+
+.naverBtn {
+    padding: 0.6em 0.8em;
+    border-radius: 0.25em;
+    font-size: 28px;
+    margin-top: 0.7em;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    box-shadow: var(--shadow-1);
+    background-color: #03C75A;
+    color: white;
+    cursor: pointer;
+}
+
+.naverBtn>img{
+    height:50px;
+    width:50px;
+    margin-right: 0.5em;
+}

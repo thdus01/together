@@ -1,0 +1,176 @@
+.volunteerRequest-body {
+    text-align: center;
+    min-width: 1000px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+@media (max-width: 1300px) {
+
+    .volunteerRequest-body {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .volunteerRequest-body { 
+        margin-left:0%;
+        margin-right:0%;
+    }
+
+}
+
+.volunteerRequest-body-hr {
+    min-width:1000px;
+    border:black solid 1.5px;
+    background-color: black;
+    display: inline-block;
+}
+
+.volunteerRequest-body-titleNameBox { /* 제목 박스 */
+    display: inline-flex;
+    margin:20px;
+}
+
+.volunteerRequest-body-titleNameBox-span { /* 제목 글자 */
+    font-size: 40px;
+    
+}
+
+.volunteerRequest-body-institutionInformationBox { /* 기관 사진, 봉사 정보 박스 */
+    display: inline-flex;
+    text-align: center;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+    .volunteerRequest-body-institutionInformationBox-pictureBox { /* 기관 사진 */
+        border: black solid 1.5px;
+        display: inline-block;
+        width: 250px;
+        height: 230px;
+        margin:10px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+    .volunteerRequest_body_org_img {
+        display:block;
+        width:100%;
+        height:100%;
+        border-radius: 15px;
+    }
+
+    .volunteerRequest-body-institutionInformationBox-div { /* 봉사 정보 박스 */
+        margin: 5px;
+        min-width: 700px;
+        min-height: 230px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+        .volunteerRequest-body-institutionInformationBox-div-table { /* 봉사 정보 테이블 */
+            width: 700px;
+            height: 230px;
+            text-align: center;
+            table-layout: fixed;
+        }
+
+            .volunteerRequest-body-institutionInformationBox-div-table>tbody>tr>th { /* 봉사 정보 테이블 요소 */
+                border: black solid 1.5px;
+                font-size: 20px;
+                width: 80px;
+                height:50px;
+                border-radius: 5px;
+                overflow: auto;
+            }
+
+            .volunteerRequest-body-institutionInformationBox-div-table>tbody>tr>td { /* 봉사 정보 테이블 요소 */
+                border: black solid 1.5px;
+                font-size: 16px;
+                width: 150px;
+                height:50px;
+                border-radius: 5px;
+                overflow: auto;
+            }
+            
+
+.volunteerRequest-body-institutionRuleBox { /* 활동 사진, 기관 규칙 박스 */
+    margin:20px;
+    display : inline-flex;
+    justify-content : center;
+    align-items : center;
+}
+
+    .volunteerRequest-body-institutionRuleBox-pictureBox { /* 활동 사진 */
+        border: black solid 1.5px;
+        display: inline-block;
+        min-width: 350px;
+        min-height: 230px;
+        margin:10px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+        .volunteerRequest_body_action_img {
+            display:block;
+            width: 350px;
+            height:230px;
+            border-radius: 15px;
+        }
+
+    .volunteerRequest-body-institutionRuleBox-ruleBox { /* 기관 규칙 */
+        border: black solid 1.5px;
+        display: inline-block;
+        min-width: 600px;
+        min-height: 230px;
+        margin:10px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+        .volunteerRequest-body-institutionRuleBox-ruleBox-title {
+            font-weight: bold;
+            margin: 3px;
+            font-size: 18px;
+        }
+
+        .volunteerRequest-body-institutionRuleBox-ruleBox-hr {
+            border: 0.5px black solid;
+            width: auto;
+        }
+
+        .volunteerRequest-body-institutionRuleBox-ruleBox-body {
+            text-align: left;
+            overflow: auto;
+            margin: 5px;
+        }
+
+.volunteerRequest-body-institutionMapBox { /* 기관 위치 지도 박스 */
+    display: inline-block;
+}
+
+.volunteerRequest-body-institutionMapBox-mapBox { /* 기관 위치 지도 */
+    border: black solid 1.5px;
+    min-width: 1000px;
+    min-height: 480px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.volunteerRequest-body-buttonBox {
+    display: inline-block;
+    margin:10px;
+}
+
+.volunteerRequest-body-buttonBox button {
+    font-size: 25px;
+    margin:10px;
+}

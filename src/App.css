@@ -1,0 +1,24 @@
+.app-body { /* 메인 */
+  /*
+  min-width: 1000px;
+  margin-left:20vw;
+  margin-right:20vw;
+  */
+}
+
+@media (hover: none) and (pointer: coarse) {
+  /* 터치가능한 디바이스(스마트폰, 터치스크린) */
+  .app-body { /* 메인 */
+    width: 100vw;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* hover 가능(마우스, 터치패드) */
+  
+} 
+
+a {
+  text-decoration-line : none;
+  color: black;
+}

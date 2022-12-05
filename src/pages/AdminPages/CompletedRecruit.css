@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #FF6A89;
+    --blue: #0288d1;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+
+}
+
+.CompletedRecruit_body {
+    background-color: #222;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.CompletedRecruit_main {
+    position: relative;
+    width: 100vw;
+}
+
+.CompletedRecruit_dashboard {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 250px;
+    height: 100vh;
+    padding-top: 5vh;
+    background: var(--white);
+    transition: 0.5s;
+    padding-left: 80px;
+    display: block;
+    overflow: hidden;
+}
+
+.CompletedRecruit_mainTitle {  /* '봉사 등록'  박스 부분 (제목 박스) */
+    width: 80vw;
+    height: 10vh;
+    border-bottom: 5px solid var(--blue);
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 10vh;
+    
+}
+
+.CompletedRecruit_volSelect {  /* 본문 작성 전체 부분*/
+    width: 80vw;
+    height: 70vh;
+    border: 2px solid lightgrey;
+    padding: 30px;
+    display: inline-block;
+}
+
+.CompletedRecruit_tableList {
+    display: inline-block;
+    width: 75vw;
+    height: 50vh;
+    border-collapse: collapse;
+    line-height: 40px;
+    
+    
+}
+
+/* .CompletedRecruit_thead {
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+} */
+
+.CompletedRecruit_thead tr th{
+    margin: 20px;
+
+    width: 50vw;
+    text-align: center;
+    
+}
+
+/* .CompletedRecruit_tableListIdx {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.CompletedRecruit_tbody {
+    height: 50vh;
+    padding: 30px;
+    
+}
+
+.CompletedRecruit_tbody td{
+   
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-left: 10px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+
+}
+
+.CompletedRecruit_tbody tr {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+}
+
+.CompletedRecruit_tr1 {
+    background-color: rgb(199, 232, 243);
+    font-weight: bold;
+    border: 1px solid lightgray;
+    cursor: default;
+}
+
+.CompletedRecruit_tbody tr:hover{
+    background-color: lightgray;
+}
+
+/* .CompletedRecruit_tableListIdx {
+    padding-left: 20px;
+    padding-right: 50px;
+} */
+
+.CompletedRecruit_tbody2 {
+    height: 50vh;
+    padding: 30px;  
+}
+
+.CompletedRecruit_tbody2 td{
+
+    text-align: center;
+    justify-content: center;
+}
+
+.CompletedRecruit_tbody2 tr:hover{
+    background-color: lightblue;
+}
+
+/* .CompletedRecruit_tableListIdx {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.CompletedRecruit_tableListTitle {
+ 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.CompletedRecruit_tableListType {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.CompletedRecruit_tableListRecPeriod {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:5px;
+    margin-bottom:5px;
+} */

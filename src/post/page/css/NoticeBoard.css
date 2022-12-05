@@ -1,0 +1,50 @@
+.NoticeBoard_NB {
+  min-width: 1000px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (max-width: 1300px) {
+
+  .NoticeBoard_NB {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .NoticeBoard_NB {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+}
+
+
+.a_PL {
+  text-decoration: none;
+
+}
+
+.writeBtn_PL {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 1%;
+  margin-top: 20px;
+  color: black;
+  float: right;
+  margin-right: 450px;
+  margin-left: 70%;
+
+}
+
+.invisiblehr_PL {
+  opacity: 0;
+}
+
+.a_pl {
+  text-decoration: none;
+  color: black;
+}

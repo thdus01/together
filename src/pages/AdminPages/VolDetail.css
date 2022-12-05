@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #FF6A89;
+    --blue: #0288d1;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+
+}
+
+.VolDetail_body {
+    background-color: #222;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.VolDetail_main {
+    position: relative;
+    width: 100vw;
+}
+
+.VolDetail_dashboard {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 250px;
+    height: 130vh;
+    padding-top: 5vh;
+    background: var(--white);
+    transition: 0.5s;
+    padding-left: 80px;
+    display: block;
+}
+
+.VolDetail_title {
+    width: 80vw;
+    height: 10vh;
+    border-bottom: 5px solid var(--blue);
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 10vh;
+}
+
+.onBtnDelete {
+    /* 삭제 버튼 */
+    position: relative;
+    width: 150px;
+    height: 70px;
+    margin: 30px;
+    float: right;
+    margin-right: 48vw;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #70b2d6;
+    border-radius: 8px;
+}
+
+.onBtnDelete:hover {
+    background-color:#3f9cce;
+    
+}
+
+.VolDetail_table_tr {
+    margin: 5px;
+}
+
+.VolDetail_table {
+    margin: 30px;
+    margin-top: 50px;
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 150px;
+    width: 60vw;
+    height: 50vh;
+}
+
+.VolDetail_table_tbody {
+    border: gray solid 1px;
+}
+
+.VolDetail_table_tr_th {
+    font-size: 20px;
+    margin: 5px;
+    border: gray solid 1px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.VolDetail_table_tr_td {
+    font-size: 20px;
+    margin: 5px;
+    border: gray solid 1px;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.VolDetail_contentBox {
+    border: black solid 1px;
+    width: 60vw;
+    height: 25vh;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin: 30px;
+    margin-left: 150px;
+}
+
+.VolDetail_contentBox_p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.VolDetail_contentBox_hr {
+    border: black solid 2px;
+}
+
+.VolDetail_contentBox_div {
+    height: 160px;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+}

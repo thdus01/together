@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #FF6A89;
+    --blue: #0288d1;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+
+}
+
+.OrgMyPage_body {
+    background-color: #222;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.OrgMyPage_main {
+    position: relative;
+    width: 100vw;
+}
+
+.OrgMyPage_dashboard {
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 250px;
+    height: 100vh;
+    padding-top: 5vh;
+    background: var(--white);
+    transition: 0.5s;
+    padding-left: 80px;
+    display: block;
+}
+
+.OrgMyPage_mainTitle {  /* '봉사 등록'  박스 부분 (제목 박스) */
+    width: 80vw;
+    height: 10vh;
+    border-bottom: 5px solid var(--blue);
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 10vh;
+}
+
+.OrgMyPage_content {  /* 본문 작성 전체 부분*/
+    width: 80vw;
+    height: 70vh;
+    border: 2px solid lightgrey;
+    padding: 30px;
+}
+
+.OrgMyPage_OrganInfo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.OrgMyPage-personalInformationBox-table {
+    margin: 30px;
+    margin-top: 50px;
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 150px;
+    width: 60vw;
+    height: 50vh;
+}
+
+.OrgMyPage-volunteerRecordBox-p {
+    margin: 30px;
+}
+
+.OrgMyPage_tableTbody {
+    border: 1px solid lightgray;
+}
+
+.OrgMyPage_tableTd th{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.OrgMyPage_tableTd td{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.OrgMyPage_tableInform {
+    font-weight: bold;
+}

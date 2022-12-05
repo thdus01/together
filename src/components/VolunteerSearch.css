@@ -1,0 +1,251 @@
+.volunteerSearch-body { /* 메인 */
+    min-width: 1000px;
+    margin-bottom:20px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+@media (max-width: 1300px) {
+
+    .volunteerSearch-body {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .volunteerSearch-body { 
+        margin-left:0%;
+        margin-right:0%;
+    }
+
+}
+
+.volunteerSearch-block {
+    text-align: center;
+}
+
+    .volunteerSearch-titleBox { /* 제목 박스 */
+        display: inline-block;
+        margin:20px;
+    }
+
+        .volunteerSearch-titleBox-span { /* 제목 글자 */
+            font-size: 40px;
+        }
+
+    .volunteerSearch-searchBox { /* 검색 박스 */
+        border: black solid 1px;
+        text-align: center;
+        display: inline-block;
+        width: auto;
+        margin:5px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+        padding: 0.5em 0.5em;
+    }
+
+        .volunteerSearch-searchTable {
+            padding-bottom: 0.2em;
+            border:0;
+        }
+
+            .volunteerSearch-searchBox-tr {
+                
+            }
+
+                .volunteerSearch-searchBox-tr>td {
+                    border:0;
+                    width:auto;
+                }
+
+                    .volunteerSearch-searchBox-Text { /* 검색 내부 글자 */
+                        margin: 5px;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+
+                    .volunteerSearch-searchBox-area-inputText { /* 검색 글자 블럭 */
+                        margin: 5px;
+                        font-size: 20px;
+                        border-radius: 5px;
+                    }
+
+                    .volunteerSearch-searchBox-area-select {
+                        margin: 5px;
+                        font-size: 20px;
+                        border-radius: 5px;
+                    }
+
+        .volunteerSearch-searchBox-teenager { /* 청소년 가능여부 */
+            margin:5px;
+        }
+
+        .volunteerSearch-searchBox-area-inputCheck { /* 청소년 체크박스 */
+            margin: 5px;
+            zoom: 1.4;
+        }
+
+    .volunteerSearch-tableBox { /* 검색 결과 박스 */
+        border: black solid 1.5px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+    }
+
+        .volunteerSearch-tableBox-div { /* 검색 결과 테이블 */
+            display: inline-block;
+            border-top: black solid 1.5px;
+            border-bottom: black solid 1.5px;
+            width: 1000px;
+            height:465px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px 3px lightgray;
+        }
+
+            .volunteerSearch-tableBox-div-table {
+                display: inline-block;
+                border-collapse: collapse;
+                margin-top: 10px;
+                width:940px
+            }
+
+                .volunteerSearch-tableBox-div-table-thead {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    display:'inline-block'
+                }
+
+                    .volunteerSearch-tableBox-div-table-tbody-tr-true {
+                        border-top:black solid 1px;
+                    }
+
+                    .volunteerSearch-tableBox-div-table-tbody-tr-false {
+                        border-top:black solid 1px;
+                        cursor: default;
+                    }
+
+                    .volunteerSearch-tableBox-div-table-tbody-tr-true:hover {
+                        background-color: lightgray;
+                    }
+
+                    .volunteerSearch-tableBox-div-table-tbody-tr-false:hover {
+                        background-color: lightgray;
+                    }
+
+                        .volunteerSearch-tableBox-div-table-tr-org { /* 기관이름 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:150px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-title { /* 제목 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:200px;
+                            background-color: #dee2e6;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-type { /* 유형 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:125px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-date { /* 날짜 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:100px;
+                            background-color: #dee2e6;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-period { /* 마감 날짜 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:100px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-location { /* 위치 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:175px;
+                            background-color: #dee2e6;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-people { /* 모집현황 - th */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width:90px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-people-true { /* 모집현황 - 모집중 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            color:blue;
+                            font-weight: bold;
+                            width:90px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                        .volunteerSearch-tableBox-div-table-tr-people-false { /* 모집현황 - 모집마감 */
+                            display: inline-block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            color:red;
+                            font-weight: bold;
+                            width:90px;
+                            margin-top:5px;
+                            margin-bottom:5px;
+                        }
+
+                .volunteerSearch-tableBox-div button { /* 이전,다음 버튼 */
+                    margin:5px;
+                }
+
+
+        .volunteerSearch-tableBox-span { /* 테이블 페이지 표시 */
+            float:right;
+            position: relative;
+            top:10px;
+            left:-20px;
+        }
+
+        .volunteerSearch-tableBox-table-empty {
+            margin: 10px;
+        }

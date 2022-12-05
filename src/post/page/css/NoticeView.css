@@ -1,0 +1,75 @@
+/* 게시글 상세보기 css */
+
+.NoticeView_NV {
+  min-width: 1000px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 1300px) {
+
+  .NoticeView_NV {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .NoticeView_NV {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+}
+
+.NoticeDiv_NV{
+  margin-left:30%;
+}
+.postWrapper_NV {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.btn_NV {
+  border: 0;
+  padding: 10px;
+  background-color: #5a95cb;
+  color: white;
+  margin-bottom: 1%;
+  float: right;
+  margin-left: 3px;
+}
+
+.postRow_NV {
+  margin: 5px 0;
+  display: flex;
+}
+
+.postRow_NV>label:first-child {
+  margin: 5px 0;
+  width: 20%;
+  font-weight: bold;
+}
+
+.postRow_NV>*:nth-child(2) {
+  margin: 10px 0;
+  width: 1000px;
+}
+
+.div_NV {
+  height: 30%;
+}
+
+.h2_NV {
+  text-align: center;
+}
+
+.a_NV {
+  text-decoration: none;
+  color: white;
+}

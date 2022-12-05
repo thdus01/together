@@ -1,0 +1,17 @@
+.Post_body {
+    width:600px;
+    z-index:1000;
+    position:relative;
+}
+
+.postmodal{
+    background : rgba(0,0,0,0.25);
+    position : absolute;
+    left:35%;
+    top:0;
+    height:100%;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

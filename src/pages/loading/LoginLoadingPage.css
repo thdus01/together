@@ -1,0 +1,10 @@
+.LoginLoadingPage_body {
+    text-align: center;
+}
+
+.apiCall_text {
+    margin-top: 50vh;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}

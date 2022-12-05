@@ -1,0 +1,38 @@
+.NoticeForm_NF {
+  min-width: 1000px;
+  display: inline;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_NF {
+  /* 제목 박스 */
+  font-size: 40px;
+}
+
+.body_NF {
+  width: 1000px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.a_NF {
+  text-decoration: none;
+  color: black;
+}
+
+.h1_NF {
+  left: 0;
+  right: 0;
+  margin-left: 0.5em;
+  margin-right: auto;
+  text-align: center;
+}
+
+.invisible_NF {
+  opacity: 0%;
+}
